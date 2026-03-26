@@ -18,6 +18,7 @@ function App() {
     setAmount(0)
   }
   return (
+    <>
     <div className="app">
       <h1 className="title">Counter App</h1>
       <div className="counter-container">
@@ -31,6 +32,7 @@ function App() {
         <button className="btn btn-increment-by-amount" onClick={() => dispatch(incrementByAmount(amount))}>Add Amount</button>
       </div>
     </div>
+    </>
   );
 }
 
